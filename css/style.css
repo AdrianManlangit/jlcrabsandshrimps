@@ -1,0 +1,447 @@
+hr {
+  width: 100%; /* change the width of the line */
+  height: 1px; /* change the thickness of the line */
+  margin: 5px auto; /* center the line horizontally and add some vertical space */
+  border: none; /* remove the default border */
+  background-color:white; /* change the color of the line */
+  }
+h1{
+    text-align: center  ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    background-image: url(img/LMBG.jpg);
+    
+    
+}
+h2{
+    text-align: center  ;
+    font-size: medium   ;
+    align-items: center;
+    margin-left: 10px;
+
+
+}
+
+ul {
+    list-style-type:none;
+    margin: 0px;
+    padding: 0%;
+    background-color:#3B5998;
+    overflow: hidden;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+   
+ 
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#55ACEE;
+    
+}
+
+.Products{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+.Crabs{
+    text-align: left;
+    text-align: center;
+
+
+}
+
+body{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+iframe{
+    align-items: center;
+    margin-left: 240px;
+}
+.Message{
+align-items: centerS;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;  
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+.fa-facebook{
+    background: #3B5998;  
+    color: white;
+  }
+  .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    bottom: 0;
+    position: relative;
+  }
+.fa:hover {
+    opacity: 0.7;
+  } 
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+
+  .card{
+
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+border: 1px solid black;
+  }
+
+.price{
+    color: grey;
+    font-size: 22px;
+}
+
+.card button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:#d32f2f;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+.card button:hover{
+    opacity: 0.7;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-top: 0 auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.contact-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .contact-info h2 {
+    color: #333;
+  }
+
+  .contact-info p {
+    margin: 10px 0;
+  }
+
+  .contact-info strong {
+    color: #333;
+  }
+
+  .about {
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about h2 {
+    color: #333;
+  }
+  
+  .about p {
+    line-height: 1.6;
+  }
+
+  .forum {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .forum h2 {
+    text-align: center;
+  }
+  
+  .forum-post {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forum-post h3 {
+    margin-top: 0;
+  }
+  
+  .post-details {
+    color: #666;
+    margin-top: 10px;
+  }
+
+  .faq {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .faq h2 {
+    text-align: center;
+  }
+  
+  .faq-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-item h3 {
+    margin-top: 0;
+  }
+  
+  .faq-item p {
+    margin-bottom: 0;
+  }
+
+  .testimonials {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  
+  .testimonial {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    height: auto;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+  }
+  
+  .testimonial .author {
+    font-weight: bold;
+  }
+
+  .sign-out-btn {
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 5px;
+    display: inline-block;
+
+  }
+  
+  .sign-out-btn:hover {
+    background-color: #d32f2f; /* Darker Red */
+  }
+
+  .SignOut-Alignment{
+    text-align: right;
+  }
+
+
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  input[type="checkbox"] {
+    margin-top: 10px;
+  }
+
+
+  .container2{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  @media(max-width:768px){
+
+
+    .container2{
+        width: 100%;
+
+    }
+    
+  }
+
+  img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+
+
+}
+
+
+footer {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 20px 0;
+  text-align: center;
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+.logoJL{
+
+  display: flex; /* Use flexbox for easier alignment */
+  align-items: center; /* Align items vertically */
+  color: white;
+  font-size: x-large;
+}
+.logoJL img{
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Provide some space between image and text */
+}
+
+.learn-more {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  text-align: center;
+  background-image: url(img/LMBG.jpg);
+}
+.learn-more h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+.learn-more p {
+  margin-bottom: 30px;
+  color: #666;
+}
+.learn-more a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.learn-more a:hover {
+  background-color: #0056b3;
+}
+
+
+.key-features {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  text-align: center;
+}
+.key-features h3 {
+  margin-bottom: 20px;
+  color:#333;
+}
+.key-features ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.key-feature {
+  flex: 0 0 33.33%;
+  max-width: 300px;
+  margin: 20px;
+}
+.key-feature img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.key-feature h4 {
+  margin-top: 10px;
+  color:white;
+}
+.key-feature p {
+  margin: 10px 0;
+  color:white;
+}
